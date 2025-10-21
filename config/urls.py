@@ -21,4 +21,6 @@ from blog import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('contact/', views.contact_view),
+    path('greeting/', views.greeting_view),
 ]
