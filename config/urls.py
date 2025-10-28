@@ -23,4 +23,5 @@ urlpatterns = [
     path('', views.index),
     path('contact/', views.contact_view),
     path('greeting/', views.greeting_view),
+    path('post_list/', views.post_list_view),
 ]

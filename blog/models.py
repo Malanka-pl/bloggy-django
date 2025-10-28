@@ -10,7 +10,7 @@ class Greeting(models.Model):
     language = models.CharField(max_length=50)
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
-    photo_url =models.URLField(blank=True)
+    photo_url = models.URLField(blank=True)
 
 
 

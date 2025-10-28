@@ -15,3 +15,6 @@ def greeting_view(request):
     all_greetings = Greeting.objects.all
     return render(request, 'greeting.html', context={'data': all_greetings})
 
+
+def post_list_view(request):
+    return render(request, 'post_list.html')
